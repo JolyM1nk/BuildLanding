@@ -241,6 +241,7 @@ body {
   font-weight: 500;
   font-size: 36px;
   line-height: 53px;
+  margin: 0 auto;
   text-transform: uppercase;
   color: #404149;
   margin-bottom: 60px;
@@ -380,7 +381,7 @@ body {
 
 @media (max-width: 580px) {
   .info {
-    margin-bottom: 750px;
+    margin-bottom: 950px;
   }
 
   .info__container {
@@ -390,7 +391,7 @@ body {
   .stats {
     width: 300px;
     height: 1000px;
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, -25%);
   }
 }
 
