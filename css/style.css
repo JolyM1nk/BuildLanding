@@ -267,7 +267,7 @@ body {
 .project {
   display: flex;
   flex-direction: column;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .project__image {
@@ -382,7 +382,7 @@ body {
 
 @media (max-width: 580px) {
   .info {
-    margin-bottom: 950px;
+    margin-bottom: 850px;
   }
 
   .info__container {
