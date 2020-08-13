@@ -162,7 +162,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin-bottom: calc 60.34483%;
+  margin-bottom: 35px;
 }
 
 .info__text {
@@ -267,6 +267,7 @@ body {
 .project {
   display: flex;
   flex-direction: column;
+  margin-top: 150px;
 }
 
 .project__image {
@@ -381,7 +382,7 @@ body {
 
 @media (max-width: 580px) {
   .info {
-    margin-bottom: 1100px;
+    margin-bottom: 950px;
   }
 
   .info__container {
@@ -391,7 +392,6 @@ body {
   .stats {
     width: 300px;
     height: 1000px;
-    transform: translate(-50%, -25%);
   }
 }
 
