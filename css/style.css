@@ -817,7 +817,7 @@ body {
   .stats {
     width: 300px;
     height: 1000px;
-    transform: translate(-50%, -15%);
+    transform: translate(-50%, -20%);
   }
 }
 
