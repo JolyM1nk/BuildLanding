@@ -807,7 +807,7 @@ body {
 
 @media (max-width: 580px) {
   .info {
-    margin-bottom: 850px;
+    margin-bottom: 900px;
   }
 
   .info__container {
@@ -817,6 +817,7 @@ body {
   .stats {
     width: 300px;
     height: 1000px;
+    transform: translate(-50%, -20%);
   }
 }
 
