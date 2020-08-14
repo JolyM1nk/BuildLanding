@@ -10,3 +10,13 @@ function ibg() {
 
 ibg();
 
+let questions = document.querySelectorAll(".question__label");
+let questionText = document.querySelectorAll(".question__text");
+
+for (let i = 0; i < questions.length; i++) {
+  questions[i].addEventListener('click', function(e) {
+    questions[i].classList.toggle('_active');
+    setTimeout(function() {questionText[i].classList.toggle('_active')}, 200);
+  })
+}
+
